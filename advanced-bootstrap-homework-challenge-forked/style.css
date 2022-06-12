@@ -93,3 +93,14 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+
+@media (max-width: 576px) {
+  .container {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+}
